@@ -198,14 +198,15 @@ party-img {
 }
 /* New Offer style */
 .comming-soon {
+  width: 83%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 0;
 }
 .new-offer h5 {
   color: #f00;
-  text-align: center;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -220,4 +221,41 @@ party-img {
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
+  padding: 16px 0 22px;
+}
+.new-offer p {
+  width: 393px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.offre-img {
+  width: 370px;
+  height: 370px;
+  flex-shrink: 0;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  margin: 80px;
+  padding: 30px;
+}
+
+.new-year h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.new-year p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding: 20px 0 45px;
 }
