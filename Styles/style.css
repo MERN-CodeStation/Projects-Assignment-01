@@ -91,6 +91,7 @@
   height: 500px;
   padding-top: 75px;
 }
+/* welcome Party style */
 .welcome-party {
   display: flex;
   align-items: center;
@@ -140,6 +141,8 @@ party-img {
 .year2024 {
   padding: 100px;
 }
+
+/* Join Time style */
 .join-time {
   background: linear-gradient(
       180deg,
@@ -192,4 +195,29 @@ party-img {
   border-radius: 8px;
   background: #f00;
   border: none;
+}
+/* New Offer style */
+.comming-soon {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.new-offer h5 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.new-offer h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
 }
