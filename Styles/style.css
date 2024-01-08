@@ -357,12 +357,77 @@ party-img {
   width: 83%;
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  gap: 20px;
 }
 .img-list2 {
   width: 83%;
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  gap: 20px;
   padding: 20px 0;
+}
+/* Subscribe Newsletter style */
+.sub-news {
+  width: 83%;
+  height: 500px;
+  margin: 120px auto;
+  text-align: center;
+  padding: 80px 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.sub-news h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 40px 10px;
+}
+.sub-news p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding: 0 0 50px 0;
+  width: 66%;
+  margin: 0 auto;
+}
+input {
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  border: none;
+  width: 400px;
+  height: 72px;
+  color: rgba(7, 2, 17, 0.7);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 30px 0;
+  outline: none;
+}
+.btn-sub-news {
+  width: 230px;
+  height: 71px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: none;
+  margin: 0 -5px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
 }
