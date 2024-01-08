@@ -316,3 +316,53 @@ party-img {
   margin: -6px 0;
   padding-right: 4px;
 }
+/* Porfolio style */
+.portfolio {
+  width: 83%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.portfolio-text h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: normal;
+  padding: 20px 0;
+}
+.portfolio-text h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding: 25px 0 40px;
+  width: 896px;
+}
+.img-list1 {
+  width: 83%;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.img-list2 {
+  width: 83%;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 20px 0;
+}
