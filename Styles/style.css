@@ -259,3 +259,60 @@ party-img {
   line-height: 32px; /* 160% */
   padding: 20px 0 45px;
 }
+/* Holidays style */
+.Holidays-text {
+  width: 83%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0;
+}
+.Holidays-text h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Holidays-text h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding: 20px 0 30px;
+}
+.h-s50 {
+  color: #f00;
+  font-family: Merriweather;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.Holidays-text p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  padding-bottom: 50px;
+  width: 66%;
+  margin: 0 auto;
+}
+.holi-img {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.img44 {
+  margin: 0 -75px;
+}
+.imgr1 {
+  margin: -6px 0;
+  padding-right: 4px;
+}
